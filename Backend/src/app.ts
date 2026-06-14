@@ -5,7 +5,7 @@ import cors from "cors"
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin: "https://battle-arena-alpha.vercel.app/",
+    origin: "https://battle-arena-alpha.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
 }))
